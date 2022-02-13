@@ -1,0 +1,39 @@
+#contacts{
+     width: 100%;
+     background-color: #121726;
+     display: flex;
+     flex-direction: column;
+     height: fit-content;
+     text-align: center;
+}
+#contact-title-container{
+     display: flex;
+     flex-direction: column;
+}
+.contacts-card-container{
+     width: 100%;
+     background-image: url("Images/church-2264661_1280.jpg");
+     height: 80vh;
+     background-repeat: no-repeat
+}
+.contact-text-container{
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     top: 117px;
+     right: 0px;
+     background-color: black;
+     width: 40%;
+     bottom: -2px;  
+     opacity: 0.8;
+}
+@media only screen and (max-width: 700px) {
+     .contacts-card-container{
+          background-image: url("Images/bground_for_phone.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;     
+     }
+     .contact-text-container{
+          width: 70%;
+     }
+   }

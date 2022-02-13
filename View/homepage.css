@@ -1,0 +1,42 @@
+#homePage{
+     background-color:#121726;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     gap: 20 60;
+}
+
+/* some text info in home */
+#homePage_text{
+    
+}
+#homePage-text-title{
+     background-color:#121726;
+     padding:0px 30px;
+}
+#homePage_text h1,#homePage_text p{
+     padding-bottom: 20px;
+}
+.homePage_card_container{
+     display: flex;
+     flex-direction: row;
+     background-color: black;
+}
+.homePage_card_img,.homePage_card_img img{
+     width: 200px;   
+}
+
+/* carousel  fixing styles ____________________________*/
+.carousel-img{
+     height: 420px;
+}
+/* Mobile */
+@media only screen and (max-width: 600px) {
+     .carousel-img{
+          height: 280px;
+          /* if need */
+          /* width: 80%!important;
+          margin-left: auto;
+          margin-right: auto; */
+     }
+   }

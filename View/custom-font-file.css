@@ -1,0 +1,7 @@
+@font-face {
+     font-family: "CustomFont";
+     src: url("custom-font-folder/JlsdatagothicCnc-yyz3.otf");
+     src: url("custom-font-folder/JlsdatagothicRnc-9yDB.otf") format("woff"),
+     url("custom-font-folder/JlsspacegothicCnc-lMyV.otf") format("opentype"),
+     url("custom-font-folder/JlsspacegothicRnc-n2zY.otf") format("svg");
+ }
