@@ -115,6 +115,9 @@ nav{
      #contacts_icon_second{     
           right: 18%;
      }
+     #logo_link{
+          display: flex !important;
+     }
    
 }
 /* mobile nav CURTAINS EFFECT */
@@ -151,6 +154,7 @@ nav{
      display: block; /* Display block instead of inline */
      transition: 0.3s; /* Transition effects on hover (color) */
    }
+
    
    /* When you mouse over the navigation links, change their color */
    .overlay a:hover, .overlay a:focus {

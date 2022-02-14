@@ -40,3 +40,61 @@
           margin-right: auto; */
      }
    }
+
+   /* grid img container  */
+   .grid_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 400px;
+        position: relative;
+   } 
+   .grid_item_1{
+        width: 50%;
+        background-image: url("../images-personal-data/paveta3.jpg");
+        background-size: cover;
+   }
+   .grid_item_3{
+     width: 50%;
+     background-image: url("../images-personal-data/apple-3341245_640.jpg");
+     background-size: cover;
+}
+.grid_item_2{
+     width: fit-content;
+     height: fit-content; 
+     position: absolute;
+     background-color: black;
+     top: 50%;
+     left:auto;
+     right: auto;
+     padding:20px;
+     opacity: 0.8;
+
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 800px) {
+   
+    .grid_item_1{
+     width: 100%;
+     background-image: url("../images-personal-data/paveta3.jpg");
+     background-size: cover;
+     height: 300px;
+    }    
+     .grid_item_3{
+     width: 100%;
+     background-image: url("../images-personal-data/apple-3341245_640.jpg");
+     background-size: cover;
+     height: 400px;
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+     }
+     .grid_item_2{
+          top: 45%;
+     }
+  
+}

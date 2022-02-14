@@ -24,16 +24,22 @@
      right: 0px;
      background-color: black;
      width: 40%;
-     bottom: -2px;  
+     bottom: -10px;  
      opacity: 0.8;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
      .contacts-card-container{
           background-image: url("Images/bground_for_phone.jpg");
           background-repeat: no-repeat;
           background-size: cover;     
      }
      .contact-text-container{
-          width: 70%;
+          width: 100%;
+          text-align: left;
+          
+     }
+     .contact-text-container p{
+       padding-left: 50px;
+          
      }
    }

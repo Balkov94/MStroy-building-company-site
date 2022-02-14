@@ -3,6 +3,7 @@ let gallert = document.getElementById("gallery");
 let projects = document.getElementById("projects");
 let activities = document.getElementById("activities");
 let contacts = document.getElementById("contacts");
+// Error page is not included
 let errorPage = document.getElementById("errorPage");
 
 contacts.style.display="none";
